@@ -1,0 +1,23 @@
+{
+  "company_code": "bbbb",
+  "transaction_id": "bbbb",
+  "transaction_data": {
+    "id": "abcdef",
+    "status": "ok",
+    "booking": {
+      "attr1": "aye",
+      "attr2": "aye",
+      "attr3": "aye",
+      "body": {
+        "song": "dududu",
+        "artist": "blackpink"
+      }
+    },
+    "issued": {
+      "col1": "oye",
+      "col2": "oye",
+      "col3": "oye"
+    },
+    "final": true
+  }
+}

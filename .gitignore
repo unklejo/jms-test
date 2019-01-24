@@ -1,0 +1,6 @@
+
+\.settings/
+
+*.class
+
+bin/sql/moka5\.sql

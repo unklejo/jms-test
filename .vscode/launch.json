@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - JmsMessageQueueProducerExample",
+      "request": "launch",
+      "mainClass": "example.JmsMessageQueueProducerExample",
+      "projectName": "test"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - JmsDelayedMessageProducer",
+      "request": "launch",
+      "mainClass": "dmsum.JmsDelayedMessageProducer",
+      "projectName": "test"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - JmsMessageQueueProducerExample",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "mainClass": "dmsum.JmsMessageQueueProducerExample",
+      "args": "",
+      "projectName": "test"
+    }
+  ]
+}
