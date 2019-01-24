@@ -70,14 +70,5 @@ public class JmsMessageQueueProducerExample {
 		return null;
 	}
 
-
-//	private static String createJsonRequestMPM() {
-//		MPMQueueMessage pojo = new MPMQueueMessage();
-//		pojo.setOrderNumber(10001);
-//		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss:SSS");
-//		pojo.setCreated(sdf.format(new Date()));
-		
-//		return (new Gson()).toJson(pojo, MPMQueueMessage.class).toString();
-//	}
 }
 
