@@ -1,6 +1,6 @@
 
 \.settings/
 
-*.class
+bin/
 
-bin/sql/moka5\.sql
+target/

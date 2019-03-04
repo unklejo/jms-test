@@ -37,7 +37,15 @@ public class JmsMessageQueueProducerExample {
 			// String filename = "booking-preauth.json";
 			// String filename = "delete-booking-preauth.json";
 			// String filename = "update-booking-transaction.json";
-			String filename = "smailing-transaction.json";
+			// String filename = "smailing-transaction.json";
+			// String filename = "transaction_data_one_way.json";
+			// String filename = "new-payload-data-transaction.json";
+			// String filename = "transaction_data_round_trip_2pax.json";
+			// String filename = "transaction_data_round_trip.json";
+			String filename = "196JDUPC0E_send2hermes.json";
+			// String filename = "196JDUPY09_send2hermes.json";
+			// String filename = "196JDUQ5VD_send2hermes.json";
+			// String filename = "196JDUQPZE_send2hermes.json";
 
 			Queue queue = session.createQueue(queueName);
 			String payload = createJsonFromFile(filename);
