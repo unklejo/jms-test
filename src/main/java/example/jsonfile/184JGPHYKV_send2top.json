@@ -1,0 +1,135 @@
+{
+  "booking": {
+    "cctcaddress": "-",
+    "cctcphone": "081123500000",
+    "invoice_number": "",
+    "custname": "",
+    "custcode": "HMSM1D000001",
+    "email": "corbit.indivara@yahoo.com",
+    "cctcname": "bude sumiati",
+    "invoiceflag": false
+  },
+  "ticket_itin": [
+    {
+      "segmentid": 1,
+      "arriveddate": "2019-03-26",
+      "arrivedapt": "DPS",
+      "pnrcode": "JTXXTU",
+      "farebase": "0.0",
+      "departdate": "2019-03-26",
+      "airlinecode": "ID",
+      "flightclass": "E",
+      "departtime": "010000+07",
+      "flightno": "6500",
+      "proddtlcode": "TKTD",
+      "stopover": "",
+      "arrivedtime": "035000+07",
+      "departapt": "CGK",
+      "status": ""
+    }
+  ],
+  "ticket": [
+    {
+      "surcharge": 0.0,
+      "passtype": "ADT",
+      "servicefee": 3000.0,
+      "pnrcode": "JTXXTU",
+      "classtype": "B",
+      "sourcetypeid": "1W",
+      "airlinecode": "ID",
+      "airporttax": 203000.0,
+      "discamt": 0.0,
+      "issuedate": "2019-02-21",
+      "airlineid": "938",
+      "nettprice": 1300000.0,
+      "markupamt": 33000.0,
+      "sellprice": 1336000.0,
+      "currid": "IDR",
+      "pubfareccy": "IDR",
+      "sellgst": 300.0,
+      "pubfare": 1130000.0,
+      "suppid": 938,
+      "convertrate": 1,
+      "commission": 33000.0,
+      "passtitle": "MRS",
+      "sellpricenotax": 1130000.0,
+      "suppname": "Batik Air",
+      "proddtlcode": "TKTD",
+      "ticketno": "JTXXTU0001",
+      "passengername": "SUMIATI/BUDEMRS",
+      "ref_invoice": "184JGPHYKV",
+      "nettcurrid": "IDR",
+      "nettfare": 1097000.0,
+      "segment": [
+        {
+          "segmentid": 1
+        }
+      ]
+    }
+  ],
+  "paymentinfo": [
+    {
+      "fop": "3",
+      "cc_number": "9089",
+      "cc_type": "AE",
+      "cc_expiry": "0222",
+      "cc_holdername": "WELLY",
+      "remarks": "Approval Code: AX234I897",
+      "amount": 1410150.0
+    }
+  ],
+  "others": [
+    {
+      "pnrCode": "JTXXTU",
+      "serviceFee": 45000.0,
+      "sellPrice": 0.0,
+      "product": "OTSA",
+      "description": "ETS",
+      "currency": "IDR",
+      "sellprice": 0.0,
+      "servicefee": 45000.0,
+      "others_passenger": [
+        {
+          "passtitle": "MRS",
+          "passname": "sumiati/budeMRS",
+          "passtype": "ADT"
+        }
+      ]
+    },
+    {
+      "pnrCode": "JTXXTU",
+      "serviceFee": 0.0,
+      "sellPrice": 27650.0,
+      "product": "OTMT",
+      "description": "MDR",
+      "currency": "IDR",
+      "sellprice": 27650.0,
+      "servicefee": 0.0,
+      "others_passenger": [
+        {
+          "passtitle": "MRS",
+          "passname": "sumiati/budeMRS",
+          "passtype": "ADT"
+        }
+      ]
+    }
+  ],
+  "mis": {
+    "tripdate": "2019-03-26",
+    "bookdate": "2019-03-22",
+    "mis1": "",
+    "mis2": "",
+    "mis3": "",
+    "mis4": "",
+    "mis5": "",
+    "mis6": "",
+    "mis7": "",
+    "mis8": "",
+    "mis9": "(1) CRB1234@ISSM",
+    "mis10": "",
+    "mis11": "",
+    "mis12": "",
+    "mis13": "",
+    "mis14": ""
+  }
+}
