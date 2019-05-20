@@ -1,7 +1,10 @@
 {
-  "company_code": "bbbb",
+  "authorization_code": "",
+  "agent_code": "EEMC1D000022",
+  "billing_code": "AAABCC",
+  "company_code": "SMLG",
+  "currency_code": "IDR",
   "transaction_id": "bbbb",
   "transaction_amount": 999000.0,
-  "transaction_description": "bbbb",
-  "currency_code": "bbbb"
+  "transaction_description": "Check Balance"
 }

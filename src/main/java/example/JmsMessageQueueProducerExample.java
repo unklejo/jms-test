@@ -27,12 +27,12 @@ public class JmsMessageQueueProducerExample {
 					Session.AUTO_ACKNOWLEDGE);
 			
 			////// VARIABLE - change here
-			// String queueName = "hermes:employee.create";
+			String queueName = "hermes:employee.create";
 			// String queueName = "hermes:employee.update";
 			// String queueName = "hermes:booking-preauth.create";
 			// String queueName = "hermes:booking-preauth.confirm";
 			// String queueName = "hermes:booking-preauth.delete";
-			String queueName = "hermes:booking-transaction.update";
+			// String queueName = "hermes:booking-transaction.update";
 			// String filename = "employee.json";
 			// String filename = "booking-preauth.json";
 			// String filename = "delete-booking-preauth.json";
@@ -51,7 +51,10 @@ public class JmsMessageQueueProducerExample {
 			// String filename = "184JGPHYKV_send2top.json";
 			// String filename = "184JG5X35N_send2hermes.json";
 			// String filename = "184JG8XTL5_send2hermes.json";
-			String filename = "184JGXN3LF_send2hermes.json";
+			// String filename = "184JGXN3LF_send2hermes.json";
+			// String filename = "employee-create.json";
+			// String filename = "employee-update.json";
+			String filename = "employee-corbit-create.json";
 
 			Queue queue = session.createQueue(queueName);
 			String payload = createJsonFromFile(filename);
